@@ -9,7 +9,8 @@
     /* dimensions */
     max-width: 100vh;
     min-width: 850px;
-    height: 97vh;
+    min-height: 97vh;
+    max-height: auto;
     /* positioning */
     /* display */
     display: grid;
@@ -30,9 +31,9 @@
 .menu {
     /* border */
     border: green solid 2px;
-    margin: 30px 10px;
     /* dimensions */
     /* positioning */
+    margin: 30px 10px;
     /* display */
 }
 
@@ -73,6 +74,28 @@
     /* dimensions */
     min-width: 300px;
     max-width: auto;
+    /* positioning */
+    /* display */
+}
+
+#card-container {
+    /* border */
+    border: gold solid 2px;
+    /* dimensions */
+    height: auto;
+    width: 100%;
+    /* positioning */
+    /* display */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    /* border */
+    border: powderblue solid 2px;
+    /* dimensions */
+    height: 300px;
+    min-width: 200px;
     /* positioning */
     /* display */
 }
