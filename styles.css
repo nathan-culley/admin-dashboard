@@ -17,7 +17,7 @@
     font-family: Oswald;
 }
 html { 
-    background: rgba(0, 0, 0, 0.8) url('/resources/cityscape.png');
+    background: rgba(0, 0, 0, 0.8) url('./resources/cityscape.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -297,7 +297,7 @@ a {
 }
 
 #corporate-rival {
-        background: rgba(0, 0, 0, 0.6) url('/resources/corporate.png');
+        background: rgba(0, 0, 0, 0.6) url('./resources/corporate.png');
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -306,7 +306,7 @@ a {
 }
 
 #murderer {
-    background: rgba(0, 0, 0, 0.6) url('/resources/murderer.png');
+    background: rgba(0, 0, 0, 0.6) url('./resources/murderer.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -315,7 +315,7 @@ a {
 }
 
 #android {
-    background: rgba(0, 0, 0, 0.6) url('/resources/android.png');
+    background: rgba(0, 0, 0, 0.6) url('./resources/android.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -324,7 +324,7 @@ a {
 }
 
 #femme-fatale {
-    background: rgba(0, 0, 0, 0.6) url('/resources/femmefatale.png');
+    background: rgba(0, 0, 0, 0.6) url('./resources/femmefatale.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -333,7 +333,7 @@ a {
 }
 
 #brother {
-    background: rgba(0, 0, 0, 0.6) url('/resources/brother.png');
+    background: rgba(0, 0, 0, 0.6) url('./resources/brother.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -342,7 +342,7 @@ a {
 }
 
 #mutant{
-    background: rgba(0, 0, 0, 0.6) url('/resources/mutant.png');
+    background: rgba(0, 0, 0, 0.6) url('./resources/mutant.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
