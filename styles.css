@@ -107,7 +107,7 @@
     /* positioning */
     /* display */
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
 }
 
 #announcements {
@@ -125,6 +125,7 @@
 
     /* positioning */
     margin: 5px;
+    padding: 5px;
     /* display */
 }
 
