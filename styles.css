@@ -5,11 +5,11 @@
 
 :root {
     --main-dark-blue: rgb(0, 0, 54);
-    --main-steel-gray: rgb(112, 112, 112);
-    --main-neon-pink: rgb(240, 35, 137);
-    --main-neon-purple: rgb(219, 0, 219);
-    --dark-metallic-purple: rgb(32, 0, 61);
-    --light-metallic-purple: rgb(54, 0, 104);
+    --main-steel-gray: rgb(71, 71, 71);
+    --main-neon-pink: rgb(167, 14, 90);
+    --main-neon-orange: rgb(179, 87, 2);
+    --light-metallic-purple: rgb(63, 0, 82);
+    --dark-metallic-purple: rgb(19, 0, 32);
 }
 
 
@@ -24,6 +24,11 @@ html {
     background-size: cover;
     background-blend-mode: darken;
    }
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
 
 #content-area {
     /* border */
@@ -85,7 +90,7 @@ html {
     /* display */
     display: grid;
     grid-template-columns: 1fr auto;
-    background-image: linear-gradient(to right, rgb(0, 0, 54), rgb(44, 0, 44), rgb(0, 0, 54));
+    background-image: linear-gradient(to right, var(--main-dark-blue), var(--light-metallic-purple), var(--main-dark-blue));
     color: lightgray;
 }
 
@@ -126,6 +131,8 @@ html {
 #search-form input {
     width: 90%;
     display: inline;
+    background-color: lightgray;
+    border-radius: 5px;
 }
 
 #greeting {
@@ -220,7 +227,7 @@ html {
 }
 
 #actions button {
-    border: var(--main-neon-pink) solid 1px;
+    border: var(--main-neon-orange) solid 1px;
     height: 30px;
     width: 90px;
     border-radius: 5px;
@@ -258,7 +265,6 @@ html {
     /* dimensions */
     height: auto;
     min-width: 250px;
-    max-width: 750px;
     /* positioning */
     /* display */
     display: flex;
@@ -268,7 +274,7 @@ html {
 
 .card {
     /* border */
-    border: var(--main-neon-purple) solid 1px;
+    border: var(--main-neon-orange) solid 1px;
     border-radius: 5px;
     /* dimensions */
     height: 375px;
@@ -353,7 +359,7 @@ html {
     /* display */
     display: grid;
     grid-template-rows: auto auto;
-    background-image: linear-gradient(rgb(0, 0, 54), rgb(117, 117, 117));
+    background-image: linear-gradient(var(--main-dark-blue), var(--main-steel-gray));
     color: lightgray;
 }
 
@@ -367,7 +373,7 @@ html {
 
 #announcement-card {
     /* border */
-    border: var(--main-neon-purple) solid 1px;
+    border: var(--main-neon-orange) solid 1px;
     border-radius: 5px;
     /* dimensions */
 
@@ -389,7 +395,7 @@ html {
 
 #trending-card {
     /* border */
-    border: var(--main-neon-purple) solid 1px;
+    border: var(--main-neon-orange) solid 1px;
     border-radius: 5px;
     /* dimensions */
 
