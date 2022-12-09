@@ -3,6 +3,10 @@
     /* positioning */
     /* display */
 
+* {
+    font-family: Oswald;
+}
+
 #content-area {
     /* border */
     border: black solid 6px;
@@ -26,6 +30,9 @@
     /* positioning */
     /* display */
     display: block;
+    /*color*/
+    background-image: linear-gradient(rgb(0, 0, 54), rgb(117, 117, 117));
+    color: lightgray;
 }
 
 .menu {
@@ -35,6 +42,10 @@
     /* positioning */
     margin: 30px 10px;
     /* display */
+}
+
+.menu .material-symbols-outlined {
+    margin-right: 8px;
 }
 
 #right-side {
@@ -57,6 +68,8 @@
     /* display */
     display: grid;
     grid-template-columns: 1fr auto;
+    background-image: linear-gradient(to right, rgb(117, 117, 117), rgb(0, 0, 54), rgb(117, 117, 117));
+    color: lightgray;
 }
 
 #header-left {
@@ -162,7 +175,6 @@
     margin: 10px;
     /* display */
 
-    background-color: blue;
 }
 
 #username {
@@ -191,7 +203,7 @@
     height: 30px;
     width: 90px;
     border-radius: 10%;
-    background-color: blue;
+    background-color: darkslateblue;
     margin: 5px;
     color: white;
     
@@ -214,7 +226,9 @@
     min-width: 500px;
     max-width: auto;
     /* positioning */
+    padding: 5px;
     /* display */
+    background-image: linear-gradient(lightgray, darkgray, lightgray);
 }
 
 #card-container {
@@ -227,6 +241,7 @@
     /* display */
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
 }
 
 .card {
@@ -236,7 +251,11 @@
     height: 150px;
     width: 225px;
     /* positioning */
+    margin: 5px;
+    padding: 5px;
     /* display */
+    background-color: darkslateblue;
+    color: lightgray;
 }
 .card-actions {
     float: right;
@@ -250,6 +269,8 @@
     /* display */
     display: grid;
     grid-template-rows: auto auto;
+    background-image: linear-gradient(rgb(0, 0, 54), rgb(117, 117, 117));
+    color: lightgray;
 }
 
 #announcements {
@@ -257,6 +278,7 @@
     border: green solid 1px;
     /* dimensions */
     /* positioning */
+    padding: 5px;
     /* display */
 }
 
@@ -276,7 +298,7 @@
     border: darkgreen solid 1px;
     /* dimensions */
     /* positioning */
-
+    padding: 5px;
     /* display */
 }
 
