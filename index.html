@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Document</title>
 </head>
 <body>
@@ -14,40 +15,54 @@
                 <h3>Dashboard</h3>
             </div>
             <div class="menu" id="account-menu">
-                <div>Home</div>
-                <div>Profile</div>
-                <div>Messages</div>
-                <div>History</div>
-                <div>Tasks</div>
-                <div>Communities</div>
+                <div><span class="material-symbols-outlined">
+                    home</span>Home</div>
+                <div><span class="material-symbols-outlined">
+                    account_box</span>Profile</div>
+                <div><span class="material-symbols-outlined">
+                    chat_bubble</span>Messages</div>
+                <div><span class="material-symbols-outlined">
+                    history</span>History</div>
+                <div><span class="material-symbols-outlined">
+                    task</span>Tasks</div>
+                <div><span class="material-symbols-outlined">
+                    groups</span>Communities</div>
             </div>
             <div class="menu" id="settings-menu">
-                <div>Settings</div>
-                <div>Support</div>
-                <div>Privacy</div>
+                <div><span class="material-symbols-outlined">
+                    settings</span>Settings</div>
+                <div><span class="material-symbols-outlined">
+                    help</span>Support</div>
+                <div><span class="material-symbols-outlined">
+                    security</span>Privacy</div>
             </div>
         </div>
         <div id="right-side">
             <div id="header">
                 <div id="header-left">
                     <div id="search">
-                        <form action="GET">
-                            <button type="submit"></button>
-                            <div id="search-bar"><input type ="text"></div>
+                        <form action="GET" id="search-form">
+                            <span class="material-symbols-outlined">
+                                search</span>
+                            <input type ="text">
                         </form>
                     </div>
                     <div id="greeting">
-                        <div id="profile-pic"></div>
+                        <div id="profile-pic"><span class="material-symbols-outlined">
+                            account_circle</span></div>
+                        
                         <div id="hello">Hi there, @user</div>
                     </div>
                 </div>
                 <div id="header-right">
                     <div id="status">
                         <div id="notifications">
-
+                            <span class="material-symbols-outlined">
+                                notifications</span>
                         </div>
                         <div id="profile-icon">
-
+                            <span class="material-symbols-outlined">
+                                account_circle</span>
                         </div>
                         <div id="username">
                             User McName

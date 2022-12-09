@@ -56,7 +56,7 @@
     /* positioning */
     /* display */
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr auto;
 }
 
 #header-left {
@@ -77,6 +77,11 @@
     /* dimensions */
     /* positioning */
     /* display */
+}
+
+#search-form {
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
 
 #search button {
@@ -189,6 +194,7 @@
     width: 90px;
     border-radius: 10%;
     background-color: blue;
+    margin: 5px;
     color: white;
     
 }
