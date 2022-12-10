@@ -25,13 +25,9 @@ html {
     background-blend-mode: darken;
    }
 
-a {
+   a {
     color: lightgray;
     text-decoration: none;
-}
-
-a:hover {
-    text-shadow: 1px 1px lightgray;
 }
 
 #content-area {
@@ -75,6 +71,10 @@ a:hover {
 }
 
 
+
+.menu a:hover {
+    text-shadow: 1px 1px lightgray;
+}
 
 #right-side {
     /* border */
