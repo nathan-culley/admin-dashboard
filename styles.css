@@ -6,7 +6,7 @@
 :root {
     --main-dark-blue: rgb(0, 0, 54);
     --main-steel-gray: rgb(71, 71, 71);
-    --main-neon-pink: rgb(167, 14, 90);
+    --border-blue: darkslateblue;
     --main-neon-orange: rgb(179, 87, 2);
     --light-metallic-purple: rgb(63, 0, 82);
     --dark-metallic-purple: rgb(19, 0, 32);
@@ -17,7 +17,7 @@
     font-family: Oswald;
 }
 html { 
-    background: rgba(0, 0, 0, 0.8) url('./resources/cityscape.png');
+    background: rgba(0, 0, 20, 0.85) url('./resources/cityscape.png');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ a {
 
 #sidebar {
     /* border */
-    border: var(--main-neon-pink) solid 1px;
+    border: var(--border-blue) solid 1px;
     border-radius: 5px;
     /* dimensions */
     height: 100%;
@@ -82,7 +82,7 @@ a {
 
 #header {
     /* border */
-    border: var(--main-neon-pink) solid 1px;
+    border: var(--border-blue) solid 1px;
     border-radius: 5px;
     /* dimensions */
     height: auto;
@@ -248,7 +248,7 @@ a {
 
 #projects {
     /* border */
-    border: var(--main-neon-pink) solid 1px;
+    border: var(--border-blue) solid 1px;
     border-radius: 5px;
     /* dimensions */
     min-width: 500px;
@@ -352,7 +352,7 @@ a {
 
 #other-panels {
     /* border */
-    border: var(--main-neon-pink) solid 1px;
+    border: var(--border-blue) solid 1px;
     border-radius: 5px;
     /* dimensions */
     /* positioning */
